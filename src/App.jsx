@@ -5,7 +5,7 @@ import Welcome from "./pages/welcome";
 function App({ pca }) {
   return (
     <MsalProvider instance={pca}>
-      <main>
+      <main className="w-full h-screen">
         <Welcome />
       </main>
     </MsalProvider>
