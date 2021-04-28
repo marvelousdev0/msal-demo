@@ -16,8 +16,8 @@ export const msalConfig = {
   auth: {
     clientId: "bad4314b-7a1d-47a1-b86c-4d7b3538f965",
     authority: "https://login.windows-ppe.net/common",
-    redirectUri: "/",
-    postLogoutRedirectUri: "/",
+    redirectUri: "http://localhost:3000/",
+    postLogoutRedirectUri: "http://localhost:3000/",
   },
   cache: {
     storeAuthStateInCookie: isIE || isEdge || isFirefox,
